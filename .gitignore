@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+.yarn/
+
+# Convex
+.convex/
+convex/_generated/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Next.js
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Turbo
+.turbo/
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

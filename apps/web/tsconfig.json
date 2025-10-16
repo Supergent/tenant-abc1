@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/lib/*": ["lib/*"],
+      "@/providers/*": ["providers/*"],
+      "@/convex/*": ["../../convex/*"],
+      "@/../convex/_generated/api": ["../../convex/_generated/api"],
+      "@/../convex/_generated/dataModel": ["../../convex/_generated/dataModel"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,48 @@
+/**
+ * Design Tokens - CSS Custom Properties
+ *
+ * Generated from theme profile: jn74998dv4gxe0f64an4cn8kqs7skcfq-theme
+ * Tone: Neutral | Density: Balanced
+ */
+
+@layer base {
+  :root {
+    /* Color Palette - Primary */
+    --color-primary: 99 102 241;
+    --color-primary-foreground: 255 255 255;
+    --color-primary-emphasis: 67 56 202;
+
+    /* Color Palette - Secondary */
+    --color-secondary: 14 165 233;
+    --color-secondary-foreground: 15 23 42;
+    --color-secondary-emphasis: 2 132 199;
+
+    /* Color Palette - Accent */
+    --color-accent: 249 115 22;
+    --color-accent-foreground: 15 23 42;
+    --color-accent-emphasis: 234 88 12;
+
+    /* Neutrals */
+    --color-background: 248 250 252;
+    --color-surface: 255 255 255;
+    --color-muted: 226 232 240;
+    --color-text-primary: 15 23 42;
+    --color-text-secondary: 71 85 105;
+    --color-border: 226 232 240;
+
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 20px;
+
+    /* Typography */
+    --font-family: Inter, 'Inter Variable', system-ui, sans-serif;
+  }
+
+  .dark {
+    --color-background: 15 23 42;
+    --color-surface: 30 41 59;
+    --color-text-primary: 248 250 252;
+  }
+}
